@@ -1,0 +1,6 @@
+{
+  "name": "ZeroLabz QuantumEdge | Post-Quantum Security & Autonomous Agent Mesh",
+  "description": "Enterprise-grade post-quantum cryptography, UniGas key exchange, offline-first synchronization, resilient disaster recovery, asynchronous scaling engine, rogue AI agent detection with circuit breakers, and battery-optimized edge stream analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
