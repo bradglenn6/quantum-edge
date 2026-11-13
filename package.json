@@ -1,7 +1,6 @@
 {
-  "name": "react-example",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@zerolabz/quantum-edge",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
@@ -31,5 +30,26 @@
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",
     "@types/express": "^4.17.21"
+  },
+  "description": "Zero-trust P2P mesh network and AI orchestration platform featuring WebRTC DataChannels, Auto-Heal triggers, and ML-DSA integration.",
+  "license": "Apache-2.0",
+  "author": "Bradley Jones <dev@zrolabz.com> (https://zrolabz.com)",
+  "main": "syncDisasterService.ts",
+  "keywords": [
+    "mesh-network",
+    "p2p",
+    "post-quantum-cryptography",
+    "webrtc",
+    "zero-trust",
+    "ml-dsa",
+    "zerolabz"
+  ],
+  "homepage": "https://github.com/bradglenn6/quantum-edge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradglenn6/quantum-edge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradglenn6/quantum-edge/issues"
   }
 }

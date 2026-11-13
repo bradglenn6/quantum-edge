@@ -1,22 +1,23 @@
+# @zerolabz/quantum-edge
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23893472.svg)](https://doi.org/10.5281/zenodo.23893472)
+[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+**QuantumEdge** is a zero-trust P2P mesh network and AI orchestration platform featuring secure WebRTC DataChannels, Auto-Heal triggers, and NIST FIPS 204 (**ML-DSA**) post-quantum signature integration.
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## Core Capabilities
 
-View your app in AI Studio: https://ai.studio/apps/8a77e490-caa2-489d-9364-ce81818db112
+* **Zero-Trust P2P Mesh Transport:** Secure WebRTC DataChannel connections with cryptographic handshake verification across distributed nodes.
+* **Post-Quantum ML-DSA Integration:** Lattice-based digital signature verification (ML-DSA) securing node peering and orchestration commands.
+* **Auto-Heal Mesh Triggers (syncDisasterService.ts):** Autonomous network self-healing, state synchronization, and fault recovery.
+* **Real-Time AI Orchestration:** Integrated telemetry and decentralized agent communication.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Installation & Quick Start
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+`ash
+npm install @zerolabz/quantum-edge
+`
